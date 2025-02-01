@@ -1,18 +1,17 @@
 {
-  "name": "cursonodejs",
+  "name": "ewacademy",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "service.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "G4ngst4c0d3",
+  "author": "",
   "license": "ISC",
   "description": "",
-  "type": "module",
   "dependencies": {
-    "ejs": "^3.1.10",
-    "express": "^4.21.2",
-    "joi": "^17.13.3"
+    "axios": "^1.7.9",
+    "git": "^0.1.5"
   }
 }
