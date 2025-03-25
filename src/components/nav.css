@@ -1,0 +1,35 @@
+.menu-navegacao {
+  background-color: #333;
+  padding: 10px;
+}
+
+.menu-navegacao ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 49px;
+}
+
+.menu-navegacao li {
+  margin-right: 20px;
+  justify-content: space-between;
+
+}
+
+.menu-navegacao a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.menu-navegacao a:hover {
+  color: #1e90ff;
+}
+
+.cadastro{
+  display: flex;
+  justify-content: flex-end;
+}

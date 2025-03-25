@@ -18,3 +18,45 @@
   padding: auto;
   margin-top: 14px;
 }
+
+.tarfas{
+  margin-top: 30px;
+
+}
+
+.tarefas li{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 500ms;
+}
+
+.tarefas li:hover{
+  background:aqua;
+}
+
+.tarefas li .edit{
+  margin-right: 15px;
+  color: aquamarine;
+}
+.tarefas li .delete{
+  margin-right: 15px;
+  color: red;
+}
+
+.tarefas li:hover .edit,
+.tarefas li:hover .delete{
+  color: black;
+}
+
+.tarefas li .edit,
+.tarefas li .delete{
+  cursor: pointer;
+  transition: all 500ms;
+}
+
+.tarefas li span{
+  display: flex;
+  align-items: center;
+}
